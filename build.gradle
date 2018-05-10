@@ -60,3 +60,7 @@ publishing {
 		}
 	}
 }
+
+contracts {
+	baseClassForTests = "com.reidconner.contractproducer.contracts.ContractVerifierBase"
+}
